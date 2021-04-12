@@ -6,7 +6,7 @@ router.get('/cpfm', function(req, res, next) {
   res.status(200).json(
     { 
       "success": true,
-      "app-version": "2.4.2", 
+      "app-version": "2.5.0", 
       "is_show_third_party_login": true
     }
   );
