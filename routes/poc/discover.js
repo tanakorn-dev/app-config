@@ -131,11 +131,11 @@ router.get('/shelf', function(req, res, next) {
             "data": [
                 {
                     "name": "True",
-                    "image": partnerPath + "/true.png"
+                    "image": partnerPath + "/true.jpg"
                 },
                 {
                     "name": "AIS",
-                    "image": partnerPath + "/ais.png"
+                    "image": partnerPath + "/ais.jpg"
                 },
                 {
                     "name": "DTAC",
@@ -147,7 +147,7 @@ router.get('/shelf', function(req, res, next) {
                 },
                 {
                     "name": "Shopee",
-                    "image": partnerPath + "/shopee.png"
+                    "image": partnerPath + "/shopee.jpg"
                 },
                 {
                     "name": "JD Cental",
@@ -155,7 +155,7 @@ router.get('/shelf', function(req, res, next) {
                 },
                 {
                     "name": "CP Freshmart",
-                    "image": partnerPath + "/cp.png"
+                    "image": partnerPath + "/cp.jpg"
                 },
                 {
                     "name": "Tops",
