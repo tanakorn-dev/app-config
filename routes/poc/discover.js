@@ -3,10 +3,10 @@ var router = express.Router();
 
 router.get('/shelf', function(req, res, next) {
 
-  var categoryPath = req.protocol + "://" + req.get("host") + "/image/category"
-  var adsPath = req.protocol + "://" + req.get("host") + "/image/ads"
-  var partnerPath = req.protocol + "://" + req.get("host") + "/image/partner"
-  var productPath = req.protocol + "://" + req.get("host") + "/image/product"
+  var categoryPath = req.protocol + "s://" + req.get("host") + "/image/category"
+  var adsPath = req.protocol + "s://" + req.get("host") + "/image/ads"
+  var partnerPath = req.protocol + "s://" + req.get("host") + "/image/partner"
+  var productPath = req.protocol + "s://" + req.get("host") + "/image/product"
 
   res.status(200).json(
     { 
