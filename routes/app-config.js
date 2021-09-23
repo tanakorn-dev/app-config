@@ -7,7 +7,7 @@ router.get('/cpfm', function(req, res, next) {
     { 
       "success": true,
       "app-version": "2.13.1", 
-      "is_show_third_party_login": false
+      "is_show_third_party_login": true
     }
   );
 });
